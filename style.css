@@ -16,12 +16,17 @@
     
 }
 .navigation{
-    /* background-color: grey; */
+    position: absolute;
+    background-color:white;
+    background-size: contain;
     box-shadow:rgb(229, 230, 231)0px 1px 10px;
-    height: 50px;
     width: 100%;
+    height: 50px;
     padding:1px;
-    display: flex
+    display: flex  ;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
     
 }
 .nav-middle{
@@ -48,7 +53,7 @@
     
 }
 #nav-last-button{
-    margin-left: 15px;
+    margin-left: 25px;
     border: none;
     height: 35px;
     width: 70px;
@@ -57,7 +62,6 @@
     color: white;
     font-size: 15px;
     font-family: revert;
-    margin-bottom:30px;
 }
 #nav-logout p{
     color: #5255b3;
@@ -69,6 +73,7 @@
 }
 /* remaining header */
 #remaining-header{
+    position: relative;
     width: 100%;
     height: 650px;
     /* border: 2px solid black; */
@@ -93,6 +98,10 @@
     margin: 48px 35px -19px 14%;
     border-radius: 0.5rem;
     border-color:#b5c7d0;
+}
+form ::placeholder{
+    padding: 10px;
+    font-size: 15px;
 }
 #logo-text-1{
     color: #626676;
