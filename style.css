@@ -1,0 +1,163 @@
+#programming_patashala_logo{
+    width: 35.85px;
+    height: 42.22px;
+    left: 50px;
+    top: 18.76px;
+    padding: 2px;
+    margin: 2px;
+}
+#programming_patashala_text{
+    position: absolute;
+    /* border: 1px solid black; */
+    display: inline;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    color: #5255b3;
+    
+}
+.navigation{
+    /* background-color: grey; */
+    box-shadow:rgb(229, 230, 231)0px 1px 10px;
+    height: 50px;
+    width: 100%;
+    padding:1px;
+    display: flex
+    
+}
+.nav-middle{
+    display: inline;
+    /* border: 5px solid black; */
+    padding: 1px;
+    margin-left: 25%;
+}
+
+.nav-lists{
+    list-style: none;
+    display: inline;
+    padding: 2px;  
+}
+.nav-lists li{
+    display: inline-block;
+    margin: 9px 20px 20px 2px;
+}
+#nav-logout{
+    margin-top: 15px;
+    margin-left: 290px;
+    font-family: Poppins-SemiBold;
+    display: inline;
+    
+}
+#nav-last-button{
+    margin-left: 15px;
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(134deg,#434cab,#3c9dbf);
+    color: white;
+    font-size: 15px;
+    font-family: revert;
+    margin-bottom:30px;
+}
+#nav-logout p{
+    color: #5255b3;
+    margin-left: 10px;
+    font-family: Poppins-SemiBold;
+    display: inline;
+    font-size: 20px;
+
+}
+/* remaining header */
+#remaining-header{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid black; */
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+}
+#logos{
+   /* background-color:red; */
+   overflow: hidden;
+   /* border: 2px solid black; */
+   height: 600px;
+   width: 600px;
+   margin: 20px 10px 20px 20px;
+   display: inline-block
+}
+#form{
+    border: 0.2px solid black;
+    background-color:white;
+    height: 500px;
+    width: 450px;
+    margin: 48px 35px -19px 14%;
+    border-radius: 0.5rem;
+    border-color:#b5c7d0;
+}
+#logo-text-1{
+    color: #626676;
+    font-family: Poppins-SemiBold;
+    font-size: 3vw;
+}
+#logo-text-2{
+    color: #3555bc;
+    font-size:40px;
+}
+#logos img{
+    height: 40%;
+    width: 100%;
+}
+.logos-button{
+    border: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(134deg,#434cab,#3c9dbf);
+    color: white;
+    font-size: 17px;
+    font-family: revert;
+    margin-bottom: 25px;
+}
+/* form */
+#form{
+    position:absolute;
+    margin-left: 150px;
+    z-index: 1;
+}
+#full-form{
+    display: flex
+}
+
+.form-text{
+    text-align: center;
+    font-size: 20px;
+}
+.form-text-1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.form-input{
+    font-size: 19px;
+    border-radius: 0.4rem;
+    margin-left: 20px;
+    border-width: 0.5px;
+    border-color:#b5c7d0;
+    height: 60px;
+    width: 85%;
+    margin-bottom: 25px;
+}
+#form button{
+margin-left: 40px;
+width: 80%;
+}
+#side-color{
+    position:absolute;
+    background-image: linear-gradient(200deg,#434cab 10%,#3c9dbf 40%,white);
+    height: 1000px;
+    width:370px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    margin-left: 30%;
+    z-index: 0;
+}
